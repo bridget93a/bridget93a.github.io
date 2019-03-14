@@ -1,0 +1,26 @@
+.image {
+  width: 300px;
+}
+
+body {
+   background-image: url("https://brilliantmaps.com/wp-content/uploads/Old-Style-Decorative-World-Map.jpg");
+   background-color: #cccccc;
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.button {
+  background-color: white;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-top: calc(0.375em - 1px);
+  text-align: center;
+  white-space: nowrap;
+}
