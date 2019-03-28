@@ -2,16 +2,26 @@
   width: 300px;
 }
 
-body {
-   background-image: url("https://brilliantmaps.com/wp-content/uploads/Old-Style-Decorative-World-Map.jpg");
-   background-color: #cccccc;
+.background {
+   background-image: url("http://www.mytravelingstory.com/wp-content/uploads/2015/09/coupons.jpg");
+  background-color: #cccccc;
    background-repeat: no-repeat;
-  background-size: cover;
-}
+   background-size: cover;
+   background-position: fixed;
+   min-width: 100%;
+   min-height: 100%;
+   /* Set up positioning */
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: -1;
+ }
+
+
 
 
 .button {
-  background-color: white;
+  background-color: blue;
   border-color: #dbdbdb;
   border-width: 1px;
   color: #363636;
@@ -23,4 +33,26 @@ body {
   padding-top: calc(0.375em - 1px);
   text-align: center;
   white-space: nowrap;
+}
+
+.picture {
+  width: 350px
+}
+
+.containerLocation {
+  display: flex;
+  justify-content: center;
+}
+
+.break {
+  display: block;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
 }
